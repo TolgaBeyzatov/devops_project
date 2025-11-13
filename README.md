@@ -1,9 +1,9 @@
 # postcount-service-project
-The name of repo for the Postcount service Python app. Exercise for a project.
 
-Python service called "postcount-service".
-
+Python service called "postcount-service". This simple application counts the POST requests which are made everytime the page is accessed. 
 It maintains a web page with a counter for the number of POST requests it has served and return it for every GET request it gets.
+
+The application uses python as its programming language which can be seen in postcount-service.py directory. 
 
 ### Steps for building and running the application 
 
