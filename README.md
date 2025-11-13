@@ -4,6 +4,7 @@ Python service called "postcount-service". This simple application counts the PO
 It maintains a web page with a counter for the number of POST requests it has served and return it for every GET request it gets.
 
 The application uses python as its programming language which can be seen in postcount-service.py directory. 
+The GitHub Actions workflow is triggered on a push in the development branch of the repository. It starts with access-check of the repository, continues with Sonar cloud analysis for vulnerabilities, setting up Git, puts next version tag of the release, configures AWS credentials, logs in to ECR, defines its name, builds a Docker image, checks for vulnerabilities, pushes the image to ECR and as last steps of the workflow, it deploys EC2 with the application.
 
 ### Steps for building and running the application 
 
